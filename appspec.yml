@@ -1,0 +1,13 @@
+version: 20062016
+os:ubuntu
+files:
+	-source:/
+		destination: /var/www/html
+permissions:
+	-obejcts:/var/www/html
+		pattern: “**”
+		owner:apache
+		group:apache
+		mode:755
+		type:
+		-file
