@@ -2,9 +2,9 @@ version: 20062016
 os:ubuntu
 files:
 	-source:/
-		destination: /var/www/html
+		destination: /var/www/html/iftibd
 permissions:
-	-obejcts:/var/www/html
+	-obejcts:/var/www/html/iftibd
 		pattern: “**”
 		owner:www-data
 		group:www-data
